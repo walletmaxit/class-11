@@ -1,0 +1,99 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+
+body{
+
+	font-family: Arial;
+	font-size: 16px;
+	color: #000;
+	background: #fff;
+
+}
+
+
+.Wrepper{
+	margin: 0 auto;
+	width: 960px;
+
+}
+
+.header{
+	height: 100px;
+	background: #8c2b5e;
+}
+.nav{
+	height: 40px;
+	background: #601948;
+}
+.main {
+    
+    background: #fff;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.maincontent {
+    height: 500px;
+    width: 610px;
+    background: #e6e6e6;
+    float: left;
+    display: block;
+    overflow: hidden;
+    margin: 20px;
+    margin-left: 0;
+}
+.sidebar {
+   
+    width: 329px;
+    background: #e6e6e6;
+    float: right;
+    display: block;
+    overflow: hidden;
+    margin: 20px 0;
+    /* margin-right: 0; */
+}
+
+.footer {
+    height: 80px;
+    background: #8c2b5e;
+}
+
+.logo{
+width: 25%;
+float: left;
+overflow: hidden;
+
+}
+
+.icon img{
+    height: 43px;
+}
+
+.icon {
+    /* display: block; */
+    /* overflow: hidden; */
+    float: right;
+    margin-top: 25px;
+    margin: 25px 25px;
+}
+
+
+.sidebar1 {
+    font-size: 18px;
+    padding: 8px;
+    border-bottom: 1px solid #444;
+    text-align: center;
+    background: #b9b7b7;
+}
+
+.pera{
+    padding: 14px;
+    font-size: 16px;
+    font-family: arial;
+}
+
+
+
