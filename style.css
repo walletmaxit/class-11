@@ -10,6 +10,7 @@ body{
 	font-size: 16px;
 	color: #000;
 	background: #fff;
+   
 
 }
 
@@ -25,9 +26,47 @@ body{
 	background: #8c2b5e;
 }
 .nav{
-	height: 40px;
+	
 	background: #601948;
+
+
 }
+
+.nav ul {
+    overflow: hidden;
+    list-style: none;
+    /* padding: 46px; */
+    display: block;
+}
+.nav ul li{
+	
+	
+    
+
+}
+.nav ul li a {
+    float: left;
+    padding: 12px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: revert;
+    /* padding-left: 54px; */
+    border-right: 1px solid #c2baba;
+}
+
+.nav ul li a:hover{
+    float: left;
+    padding: 12px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: revert;
+    /* padding-left: 54px; */
+    border-right: 1px solid #c2baba;
+    background: #c9659a;
+}
+
 .main {
     
     background: #fff;
@@ -36,7 +75,7 @@ body{
     margin-bottom: 20px;
 }
 .maincontent {
-    height: 500px;
+   height: 700px;
     width: 610px;
     background: #e6e6e6;
     float: left;
@@ -86,7 +125,9 @@ overflow: hidden;
     padding: 8px;
     border-bottom: 1px solid #444;
     text-align: center;
-    background: #b9b7b7;
+    background: #8c2b5e;
+    color: #e0dede;
+    font-family: revert;
 }
 
 .pera{
@@ -95,5 +136,8 @@ overflow: hidden;
     font-family: arial;
 }
 
-
+.fa {
+    color: #ffffff;
+    font-size: 22px !important;
+}
 
