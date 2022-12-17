@@ -18,6 +18,8 @@ body{
 .Wrepper{
 	margin: 0 auto;
 	width: 960px;
+    display: block;
+    overflow: hidden;
 
 }
 
@@ -97,8 +99,61 @@ body{
 }
 
 .footer {
-    height: 80px;
     background: #8c2b5e;
+    padding: 20px;
+    /* margin-top: 18px; */
+    padding-top: 30px;
+}
+
+.ffour{
+
+}
+.fnav ul{}
+.fnav ul li {
+    list-style: none;
+    /* margin-left: 10%; */
+}
+.fnav ul a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 30px;
+}
+
+.footerW{}
+
+.fone {
+    width: 340px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+.ftwo {
+    width: 160px;
+    float: left;
+    display: block;
+    overflow: hidden;
+}
+.fthree {
+    width: 160px;
+    float: left;
+    overflow: hidden;
+    display: block;
+    margin-left: 88px;
+}
+.ffour {
+     width: 160px;
+    float: right;
+    overflow: hidden;
+    display: block;
+}
+.fone img {
+    width: 200px;
+}
+.footerpera {
+    color: #fff;
+    font-family: arial;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 .logo{
